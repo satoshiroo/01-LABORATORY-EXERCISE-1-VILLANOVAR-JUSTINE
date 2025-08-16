@@ -66,5 +66,9 @@ namespace _01_LABORATORY_EXERCISE_1_VILLANOVAR_JUSTINE
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

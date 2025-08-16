@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -69,6 +70,14 @@ namespace _01_LABORATORY_EXERCISE_1_VILLANOVAR_JUSTINE
 
         private void button1_Click(object sender, EventArgs e)
         {
+            StudentInfoClass.StudentNum = Convert.ToInt32(studentNumTB.Text);
+            StudentInfoClass.Program = programCMB.Text.ToString();
+            StudentInfoClass.LastName = lastNameTB.Text.ToString();
+            StudentInfoClass.FirstName = firstNameTB.Text.ToString();
+            StudentInfoClass.MiddleName = middleNameTB.Text.ToString();
+            StudentInfoClass.Age = Convert.ToInt64(ageTB.Text);
+            StudentInfoClass.ContactNum = Convert.ToInt64(contactNumTB.Text);
+            StudentInfoClass.Address = addressTB.Text.ToString();
         }
     }
 }

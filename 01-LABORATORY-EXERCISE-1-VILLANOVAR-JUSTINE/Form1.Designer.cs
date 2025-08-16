@@ -30,21 +30,21 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.studentNumTB = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.lastNameTB = new System.Windows.Forms.TextBox();
+            this.ageTB = new System.Windows.Forms.TextBox();
+            this.firstNameTB = new System.Windows.Forms.TextBox();
+            this.contactNumTB = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.programCMB = new System.Windows.Forms.ComboBox();
+            this.middleNameTB = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.Address = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.addressTB = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
@@ -66,13 +66,13 @@
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
             // 
-            // textBox1
+            // studentNumTB
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(28, 62);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 26);
-            this.textBox1.TabIndex = 1;
+            this.studentNumTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.studentNumTB.Location = new System.Drawing.Point(28, 62);
+            this.studentNumTB.Name = "studentNumTB";
+            this.studentNumTB.Size = new System.Drawing.Size(159, 26);
+            this.studentNumTB.TabIndex = 1;
             // 
             // label2
             // 
@@ -98,38 +98,38 @@
             this.label3.Text = "Age : ";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // textBox2
+            // lastNameTB
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(28, 114);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 26);
-            this.textBox2.TabIndex = 4;
+            this.lastNameTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lastNameTB.Location = new System.Drawing.Point(28, 114);
+            this.lastNameTB.Name = "lastNameTB";
+            this.lastNameTB.Size = new System.Drawing.Size(159, 26);
+            this.lastNameTB.TabIndex = 4;
             // 
-            // textBox3
+            // ageTB
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(28, 166);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(159, 26);
-            this.textBox3.TabIndex = 5;
+            this.ageTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ageTB.Location = new System.Drawing.Point(28, 166);
+            this.ageTB.Name = "ageTB";
+            this.ageTB.Size = new System.Drawing.Size(159, 26);
+            this.ageTB.TabIndex = 5;
             // 
-            // textBox5
+            // firstNameTB
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(193, 114);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(230, 26);
-            this.textBox5.TabIndex = 7;
+            this.firstNameTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.firstNameTB.Location = new System.Drawing.Point(193, 114);
+            this.firstNameTB.Name = "firstNameTB";
+            this.firstNameTB.Size = new System.Drawing.Size(230, 26);
+            this.firstNameTB.TabIndex = 7;
             // 
-            // textBox6
+            // contactNumTB
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(193, 166);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(230, 26);
-            this.textBox6.TabIndex = 8;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.contactNumTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contactNumTB.Location = new System.Drawing.Point(193, 166);
+            this.contactNumTB.Name = "contactNumTB";
+            this.contactNumTB.Size = new System.Drawing.Size(230, 26);
+            this.contactNumTB.TabIndex = 8;
+            this.contactNumTB.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // label4
             // 
@@ -166,22 +166,22 @@
             this.label6.Text = "Contact No :";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // comboBox1
+            // programCMB
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(193, 60);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(185, 28);
-            this.comboBox1.TabIndex = 12;
+            this.programCMB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.programCMB.FormattingEnabled = true;
+            this.programCMB.Location = new System.Drawing.Point(193, 60);
+            this.programCMB.Name = "programCMB";
+            this.programCMB.Size = new System.Drawing.Size(185, 28);
+            this.programCMB.TabIndex = 12;
             // 
-            // textBox4
+            // middleNameTB
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(427, 114);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(215, 26);
-            this.textBox4.TabIndex = 13;
+            this.middleNameTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.middleNameTB.Location = new System.Drawing.Point(427, 114);
+            this.middleNameTB.Name = "middleNameTB";
+            this.middleNameTB.Size = new System.Drawing.Size(215, 26);
+            this.middleNameTB.TabIndex = 13;
             // 
             // label7
             // 
@@ -207,15 +207,15 @@
             this.Address.Text = "Address :";
             this.Address.Click += new System.EventHandler(this.label8_Click);
             // 
-            // groupBox1
+            // addressTB
             // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox1.Location = new System.Drawing.Point(28, 246);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(524, 173);
-            this.groupBox1.TabIndex = 16;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.addressTB.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.addressTB.Location = new System.Drawing.Point(28, 246);
+            this.addressTB.Name = "addressTB";
+            this.addressTB.Size = new System.Drawing.Size(524, 173);
+            this.addressTB.TabIndex = 16;
+            this.addressTB.TabStop = false;
+            this.addressTB.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // button1
             // 
@@ -236,21 +236,21 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(865, 460);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.addressTB);
             this.Controls.Add(this.Address);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.middleNameTB);
+            this.Controls.Add(this.programCMB);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.contactNumTB);
+            this.Controls.Add(this.firstNameTB);
+            this.Controls.Add(this.ageTB);
+            this.Controls.Add(this.lastNameTB);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.studentNumTB);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -267,20 +267,20 @@
         private System.Windows.Forms.Label label1;
         private System.IO.FileSystemWatcher fileSystemWatcher1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox studentNumTB;
+        private System.Windows.Forms.ComboBox programCMB;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox contactNumTB;
+        private System.Windows.Forms.TextBox firstNameTB;
+        private System.Windows.Forms.TextBox ageTB;
+        private System.Windows.Forms.TextBox lastNameTB;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox middleNameTB;
         private System.Windows.Forms.Label Address;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox addressTB;
         private System.Windows.Forms.Button button1;
     }
 }

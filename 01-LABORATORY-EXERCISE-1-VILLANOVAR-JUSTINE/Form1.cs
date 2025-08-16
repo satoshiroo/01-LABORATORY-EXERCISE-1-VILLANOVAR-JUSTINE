@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,9 +14,13 @@ namespace _01_LABORATORY_EXERCISE_1_VILLANOVAR_JUSTINE
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
+            programCMB.Items.Add("BSIT");
+            programCMB.Items.Add("BSBA");
+            programCMB.Items.Add("BSCS");
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -78,6 +83,10 @@ namespace _01_LABORATORY_EXERCISE_1_VILLANOVAR_JUSTINE
             StudentInfoClass.Age = Convert.ToInt64(ageTB.Text);
             StudentInfoClass.ContactNum = Convert.ToInt64(contactNumTB.Text);
             StudentInfoClass.Address = addressTB.Text.ToString();
+        }
+
+        private void programCMB_SelectedIndexChanged(object sender, EventArgs e)
+        {
         }
     }
 }

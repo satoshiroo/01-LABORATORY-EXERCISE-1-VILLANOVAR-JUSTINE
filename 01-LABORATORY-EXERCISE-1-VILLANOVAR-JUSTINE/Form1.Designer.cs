@@ -174,6 +174,7 @@
             this.programCMB.Name = "programCMB";
             this.programCMB.Size = new System.Drawing.Size(185, 28);
             this.programCMB.TabIndex = 12;
+            this.programCMB.SelectedIndexChanged += new System.EventHandler(this.programCMB_SelectedIndexChanged);
             // 
             // middleNameTB
             // 
